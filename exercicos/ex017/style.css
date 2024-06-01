@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+
+   @font-face {
+        font-family: fontefoda;
+        src: url(Lobster-Regular.ttf);
+ }
+      
+ h1{
+     font-family: fontefoda;
+ }
+ h2{
+    font-family: fontefoda;
+ }
+ p{
+    font-family: fontefoda;
+ }

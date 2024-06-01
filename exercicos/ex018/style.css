@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+     @font-face {
+     font-family: fontodona;
+     src: url(MythologicalsOne.ttf);
+    }
+h1{
+    font-family: fontodona;
+}
+h2{
+    font-family: fontodona;
+}

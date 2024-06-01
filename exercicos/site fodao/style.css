@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+
+
+    @font-face {
+      font-family: android;
+      src: url(idroid.otf);
+  }
+  @font-face {
+    font-family: titulos;
+      src: url(BebasNeue-Regular.ttf)
+  }
+  
+
+      
+      
+body{
+   background-color: #84E1AD;
+
+}
+
+div{ 
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, #92ffaa9f, #43784fad, #1c7b27c4);
+    box-shadow: 2px 2px 10px hsl(174, 57%, 7%);
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
+
+main{
+    background-color: white;
+    border-radius: none;
+    box-shadow: 2px 2px 10px hsla(174, 56%, 7%, 0.39);
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+article{
+    background-color: white;
+    box-shadow: 2px 2px 10px hsla(174, 56%, 7%, 0.39);
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+
+ }
+ section{
+    background-color: #84E1AD;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 15px #081c1a11;
+    width: 700px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+ }
+h1{
+    font-family: titulos;
+    text-align: center;
+}
+h2{
+    font-family: android;
+    src: url(idroid.otf);
+    color: rgb(64, 134, 18);
+}
+h3{
+    font-family: android;
+    src: url(idroid.otf);
+    color: rgb(64, 134, 18);
+    background-image: linear-gradient(to right, #4bbe514d, white);
+    
+}
+h4{
+    color: white;
+    background-color: #44795b;
+    border-radius: 10px 10px 0px 0px;
+    padding: 11px 0px 10px 0px;
+    box-shadow: 3px 3px 15px #00000054;
+    width: 720px;
+    margin: 2px 13px 9px 40px
+
+
+    
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(8, 70, 8);
+}
+a{
+    text-indent: 30px;
+}
+a:visited{
+    color: green;
+    
+}
