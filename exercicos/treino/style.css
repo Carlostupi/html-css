@@ -1,41 +1,98 @@
 @charset "UTF-8";
  
-       @font-face {
-        font-family: fontefora;
-        src: url(AlteHaasGroteskRegular.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+ @font-face {
+     font-family: fontefora;
+     src: url(AlteHaasGroteskRegular.ttf);
  }
-   
-
-
+:root{
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+.navbar {
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-link{
+    color: #74df70;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+.nav-link:hover{
+    background-color: #74df70;
+    border-radius: 8px;
+    color: white;
+}
 body{
    background-image: linear-gradient( to bottom,#57ad54,#39b2b6, #cf4ac9, #aa3131)
 }
+header{
+    
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header > h1{
+    color:white;
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+header > p{
+    
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+nav{
+    
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.315);
+}
+nav > a{
+    font-weight: bold;
+}
+
 main{
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px hsl(174, 57%, 7%);
-    width: 1200px;
+    
+    width: 1100px;
     padding: 10px;
     margin: auto;
 }
+main > h2{
+    font-family: fontefora , sans-serif;
+    color: #398331f8;
 
-h1{
-    background-color: #57c44bc5;
+}
+main > p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: var(--font-padrao);
+    font-size: 1em;
+    line-height: 2em;
+}
+footer {
+    background-color: #AA3133;
+    color: white;
     text-align: center;
-    
+    font-size: 0.8em;
+    padding: 10px;
 }
-h2{
-  font-family: fontefora;
-   color: #398331f8;
-   text-align: center;
-
-}  
-
-h3{
-    font-family: fontefora;
-}
-
-p{
-    font-family: fontefora;
-   text-align: justify;
+footer > p{
+    font-weight: bold;
 }
