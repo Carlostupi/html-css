@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background-color: #FF008B;
+
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+header > h1 {
+    color: white;
+    text-shadow: 1px 2px ;
+}
+main {
+    background-color: white;
+    width: 1100px;
+    padding: 10px;
+    margin: auto;
+
+}
+main > p#bilao {
+    padding-top: 20px;
+    padding-bottom: 29px;
+    font-weight: bold;
+}

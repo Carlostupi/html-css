@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Namorada para o kauan</h1>
+    </header>
+    <main>
+        <p id="bilao">O Kauan precisa urgente sair do <abbr title="anti-biblia">agry birds</abbr> e casar, ter tres filho. <br>nessa arriscada jornada estamos lançando esse formulario.</p>
+        <table>
+            <p></p>
+        </table>
+        <form action="cadastro.php">
+            <p>
+                <label for="nome">Nome da linda</label>
+                <input type="text" name="nome" id="inome">
+            </p>
+            <p>
+                <label for="itel">telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^[ 0-9]{4}-[0-9]{4}$" required>
+            </p>
+           
+            <p>
+                <label for="isu">usuario</label>
+                <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="10" placeholder="nome do usuario" autocomplete="username">
+            </p>
+            <p>
+                <label for="isen">Senha: </label>
+                <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="8" placeholder="minimo 8 letras" autocomplete="current-password">
+        </form>
+    </main>
+</body>
+</html>
