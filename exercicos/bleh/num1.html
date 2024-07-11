@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario do meu pinto!</h1>
+    </header>
+    <fieldset>
+        <legend><p>caxumbento</p></legend>
+            <form action="cadastro.php" autocomplete="off" >
+                <p>
+                    <label for="inome">Nome: </label>
+                    <input type="text" name="inome" id="inome">
+                </p>
+                <p>
+                    <label for="last">sobrenome: </label>
+                    <input type="text" name="ilast" id="ilast">
+                </p>
+                <p>
+                <p>
+                    <input type="radio" name="sexo" id="imaxo">
+                    <label for="imaxo">Masculino</label>
+                    <input type="radio" name="sexo"id="imuie">
+                    <label for="imuie">Feminino</label>
+                    <input type="radio" name="sexo"id="imuie">
+                    <label for="imuie">vidro</label>
+                </p>
+                    <label for="itel">Telefone: </label>
+                    <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^[ 0-9]{4}-[0-9]{4}$" required>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+    </fieldset>
+</body>
+</html>
